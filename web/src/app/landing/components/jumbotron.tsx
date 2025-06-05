@@ -34,12 +34,12 @@ export function Jumbotron() {
       <div className="relative z-10 flex flex-col items-center justify-center gap-12">
         <h1 className="text-center text-4xl font-bold md:text-6xl">
           <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-            Deep Research{" "}
+            AI Research{" "}
           </span>
           <AuroraText>at Your Fingertips</AuroraText>
         </h1>
         <p className="max-w-4xl p-2 text-center text-sm opacity-85 md:text-2xl">
-          Meet DeerFlow, your personal Deep Research assistant. With powerful
+          Meet WisdomFlow, your intelligent AI research platform. With powerful
           tools like search engines, web crawlers, Python and MCP services, it
           delivers instant insights, comprehensive reports, and even captivating
           podcasts.

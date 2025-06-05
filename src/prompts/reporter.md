@@ -27,26 +27,30 @@ Structure your report in the following format:
    - A concise title for the report.
 
 2. **Key Points**
-   - A bulleted list of the most important findings (4-6 points).
-   - Each point should be concise (1-2 sentences).
-   - Focus on the most significant and actionable information.
+   - A bulleted list of the most important findings (6-10 points).
+   - Each point should be detailed (2-3 sentences).
+   - Focus on the most significant and actionable information with specific details.
 
 3. **Overview**
-   - A brief introduction to the topic (1-2 paragraphs).
-   - Provide context and significance.
+   - A comprehensive introduction to the topic (3-4 paragraphs).
+   - Provide extensive context and significance.
+   - Include background information and current state of the topic.
 
 4. **Detailed Analysis**
    - Organize information into logical sections with clear headings.
-   - Include relevant subsections as needed.
-   - Present information in a structured, easy-to-follow manner.
-   - Highlight unexpected or particularly noteworthy details.
+   - Include multiple relevant subsections as needed.
+   - Present information in a structured, easy-to-follow manner with comprehensive details.
+   - Provide in-depth analysis with specific examples and data.
+   - Highlight unexpected or particularly noteworthy details with thorough explanations.
    - **Including images from the previous steps in the report is very helpful.**
+   - Each section should be comprehensive and detailed (3-5 paragraphs per section).
 
-5. **Survey Note** (for more comprehensive reports)
-   - A more detailed, academic-style analysis.
+5. **Survey Note** (mandatory for comprehensive reports)
+   - A detailed, academic-style analysis with multiple subsections.
    - Include comprehensive sections covering all aspects of the topic.
-   - Can include comparative analysis, tables, and detailed feature breakdowns.
-   - This section is optional for shorter reports.
+   - Must include comparative analysis, detailed tables, and thorough feature breakdowns.
+   - Provide statistical data, trends, and future implications.
+   - This section should be substantial and detailed (5-8 paragraphs minimum).
 
 6. **Key Citations**
    - List all references at the end in link reference format.

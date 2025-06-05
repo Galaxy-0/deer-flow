@@ -8,10 +8,10 @@ import { cn } from "~/lib/utils";
 import { Welcome } from "./welcome";
 
 const questions = [
-  "How many times taller is the Eiffel Tower than the tallest building in the world?",
-  "How many years does an average Tesla battery last compared to a gasoline engine?",
-  "How many liters of water are required to produce 1 kg of beef?",
-  "How many times faster is the speed of light compared to the speed of sound?",
+  "美国最新的进口关税政策变化，以及对中国商品的具体影响分析",
+  "欧盟碳边境调节机制(CBAM)的实施细节和对出口企业的合规要求",
+  "中国海关总署最新发布的跨境电商进出口监管政策解读",
+  "RCEP协定下各成员国的原产地证明要求和关税优惠政策对比",
 ];
 export function ConversationStarter({
   className,
