@@ -280,9 +280,23 @@ def reporter_node(state: State):
             )
         )
     logger.debug(f"Current invoke messages: {invoke_messages}")
-    response = get_llm_by_type(AGENT_LLM_MAP["reporter"]).invoke(invoke_messages)
-    response_content = response.content
-    logger.info(f"reporter response: {response_content}")
+    
+    # Add retry logic for network errors
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = get_llm_by_type(AGENT_LLM_MAP["reporter"]).invoke(invoke_messages)
+            response_content = response.content
+            logger.info(f"reporter response: {response_content}")
+            break
+        except Exception as e:
+            if "RemoteProtocolError" in str(e) or "connection" in str(e).lower():
+                logger.warning(f"Network error on attempt {attempt + 1}/{max_retries}: {e}")
+                if attempt == max_retries - 1:
+                    logger.error(f"Failed after {max_retries} attempts")
+                    raise
+            else:
+                raise
 
     return {"final_report": response_content}
 

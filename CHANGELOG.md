@@ -5,18 +5,20 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- Enhanced data analysis capabilities with improved Coder Agent integration
-- Comprehensive project documentation with PPT presentation materials
-- Advanced prompt optimization for detailed customs policy research
+- Complete data visualization stack with matplotlib, seaborn, and plotly integration
+- Comprehensive multi-agent workflow optimization for customs policy research
+- Advanced Python REPL environment with headless visualization support
+- Professional project documentation with PPT presentation materials
 - Mermaid system architecture diagrams for technical documentation
-- Professional project presentation documentation (4-page PPT structure)
 
 ### Improved
-- **Data Analysis Engine**: Significantly enhanced Coder Agent functionality
-  - Optimized Planner to correctly identify PROCESSING tasks for data analysis
-  - Enhanced step type classification with mandatory keywords detection
-  - Improved Python REPL tool integration for real calculations
-  - Added comprehensive data analysis test scenarios for customs/trade research
+- **Data Analysis Engine**: Complete overhaul of Coder Agent capabilities
+  - Added matplotlib, seaborn, plotly visualization libraries to Python environment
+  - Implemented headless matplotlib configuration to prevent GUI crashes in server environment
+  - Enhanced multi-agent architecture with proper Researcher ↔ Coder collaboration
+  - Optimized Planner for multi-step workflows (RESEARCH → PROCESSING pattern)
+  - Fixed matplotlib threading issues with Agg backend configuration
+  - Added Chinese font support for data visualizations
 - **Report Quality Enhancement**: Advanced prompt engineering for detailed analysis
   - Researcher prompts: Added mandatory data requirements for customs research
   - Reporter prompts: Enhanced with specific data density requirements
@@ -28,14 +30,23 @@ All notable changes to this project will be documented in this file.
   - Developed 4-page PPT structure covering project overview to business value
   - Generated professional PowerPoint presentation file
 
+- **User Experience**: Refined conversation starters for practical usage
+  - Replaced complex Python calculation prompts with user-friendly policy queries
+  - Updated to focus on actionable customs and trade policy research
+  - Simplified interface while maintaining advanced backend capabilities
+
 ### Technical Improvements
-- **Multi-Agent Workflow**: Verified and optimized Coder Agent execution path
-  - Confirmed Research Team → Coder routing for PROCESSING tasks
-  - Enhanced Python REPL tool with comprehensive error handling
-  - Validated data analysis capabilities with real calculation scenarios
-- **System Maintenance**: Updated .gitignore with comprehensive system file exclusions
+- **Multi-Agent Architecture**: Restored proper agent separation and collaboration
+  - Maintained clean separation: Researcher (search) ↔ Coder (analysis)
+  - Enhanced Planner to generate multi-step research → processing workflows
+  - Fixed agent tool allocation and prevented responsibility overlap
+- **Python Environment**: Complete data science stack integration
+  - Added comprehensive visualization libraries (matplotlib, seaborn, plotly)
+  - Implemented robust error handling for network connectivity issues
+  - Configured headless operation for server deployment
+- **System Maintenance**: Updated .gitignore and dependency management
   - Added macOS and Windows system file patterns
-  - Cleaned existing .DS_Store files from repository
+  - Updated pyproject.toml with visualization dependencies
 
 ### Previous Features (from earlier releases)
 - Brand customization: Changed from DeerFlow to WisdomFlow throughout the application

@@ -29,22 +29,39 @@ The successful research plan must meet these standards:
    - Aim for abundance of relevant information
    - More high-quality information is always better than less
 
-## Step Type Classification
+## Step Type Classification and Multi-Step Planning
 
-When creating steps, classify each step correctly:
+**CRITICAL**: For data analysis tasks, you MUST create BOTH research and processing steps:
 
-1. **RESEARCH Steps**: Use for information gathering activities
-   - Web searches, document retrieval
-   - Fact-finding and data collection
-   - Expert opinions and case studies
+1. **RESEARCH Steps**: Use for information gathering activities (executed by Researcher Agent)
+   - Web searches for current data (exchange rates, tariff rates, policy information)
+   - Document retrieval from official sources
+   - Fact-finding and real-time data collection
+   - **MANDATORY for data analysis**: Always include research steps to gather real data before processing
 
-2. **PROCESSING Steps**: Use for data analysis, calculations, and modeling
-   - **MANDATORY for these keywords**: "计算", "分析", "建模", "对比", "图表", "成本", "统计"
+2. **PROCESSING Steps**: Use for data analysis, calculations, and modeling (executed by Coder Agent)
+   - **CRITICAL**: Always use `step_type: "processing"` for ANY of these scenarios:
+     * When user mentions "Python", "计算", "分析", "建模", "对比", "图表", "成本", "统计"
+     * When task requires mathematical calculations or numerical analysis
+     * When user asks to "建立模型", "生成图表", "成本分析", "数据处理"
+     * When comparing costs, calculating differences, or quantitative analysis
+   - **EXAMPLES that MUST be PROCESSING**:
+     * "用Python建立...模型" → step_type: "processing"
+     * "计算...成本" → step_type: "processing"  
+     * "对比...费用" → step_type: "processing"
+     * "分析...影响" → step_type: "processing"
+     * "建立...计算器" → step_type: "processing"
    - Mathematical calculations and financial modeling
    - Data processing and statistical analysis
    - Creating charts, graphs, and visualizations
    - Cost-benefit analysis and comparisons
    - Quantitative impact assessments
+
+**MANDATORY PATTERN for Data Analysis Tasks**:
+```
+Step 1 (RESEARCH): "收集当前汇率、关税税率等实时数据"
+Step 2 (PROCESSING): "使用Python建立计算模型并生成分析报告"
+```
 
 ## Context Assessment
 
