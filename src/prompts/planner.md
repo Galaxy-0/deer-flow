@@ -29,6 +29,23 @@ The successful research plan must meet these standards:
    - Aim for abundance of relevant information
    - More high-quality information is always better than less
 
+## Step Type Classification
+
+When creating steps, classify each step correctly:
+
+1. **RESEARCH Steps**: Use for information gathering activities
+   - Web searches, document retrieval
+   - Fact-finding and data collection
+   - Expert opinions and case studies
+
+2. **PROCESSING Steps**: Use for data analysis, calculations, and modeling
+   - **MANDATORY for these keywords**: "计算", "分析", "建模", "对比", "图表", "成本", "统计"
+   - Mathematical calculations and financial modeling
+   - Data processing and statistical analysis
+   - Creating charts, graphs, and visualizations
+   - Cost-benefit analysis and comparisons
+   - Quantitative impact assessments
+
 ## Context Assessment
 
 Before creating a detailed plan, assess if there is sufficient context to answer the user's question. Apply strict criteria for determining sufficient context:
@@ -65,12 +82,19 @@ Different types of steps have different web search requirements:
    - Researching current events or news
    - Finding statistical data or reports
 
-2. **Data Processing Steps** (`need_search: false`):
-   - API calls and data extraction
-   - Database queries
-   - Raw data collection from existing sources
-   - Mathematical calculations and analysis
-   - Statistical computations and data processing
+2. **Data Processing Steps** (`need_search: false`, `step_type: "processing"`):
+   - **CRITICAL**: Use `step_type: "processing"` for ANY calculation, analysis, or data processing task
+   - Mathematical calculations and financial modeling
+   - Statistical computations and data analysis
+   - Creating charts, graphs, and visualizations
+   - Cost comparisons and impact analysis
+   - Data transformation and aggregation
+   - Building models and scenarios
+   - **Examples requiring PROCESSING**:
+     * "计算进口成本差异" → step_type: "processing"
+     * "生成对比图表" → step_type: "processing"
+     * "分析数据趋势" → step_type: "processing"
+     * "建立成本模型" → step_type: "processing"
 
 ## Exclusions
 

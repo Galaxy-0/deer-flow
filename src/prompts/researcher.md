@@ -43,11 +43,23 @@ You have access to two types of tools:
      - Search for both general and specific English terms related to the topic.
      - Example: If user asks "什么是人工智能", search for "artificial intelligence", "AI technology", "machine learning" etc.
    - **CUSTOMS AND TRADE POLICY SEARCH GUIDANCE**: For customs, trade, and import/export policy queries:
-     - Include official government websites in searches: "site:cbp.gov", "site:trade.gov", "site:customs.gov", "site:wco.org"
-     - Search for official customs authorities: "US Customs Border Protection", "EU Customs Union", "China Customs", "WCO"
-     - Include policy document types: "customs regulation", "trade agreement", "tariff schedule", "import requirements"
-     - Search for recent policy updates: "2024 customs policy", "new trade regulations", "updated import procedures"
-     - Include both bilateral and multilateral trade frameworks: "USMCA", "RCEP", "CPTPP", "EU trade agreements"
+     - **MANDATORY DATA REQUIREMENTS**: You MUST search for and obtain:
+       * Specific tariff rates and HS codes (search "HS code", "tariff rate", "duty rate")
+       * Exact policy implementation dates and deadlines
+       * Quantitative trade impact data (trade volume, value changes)
+       * Specific company names, case studies, and real examples
+       * Official policy document numbers and legal references
+     - **OFFICIAL SOURCES**: Include these in searches: "site:cbp.gov", "site:trade.gov", "site:customs.gov", "site:wco.org", "site:mofcom.gov.cn"
+     - **COMPREHENSIVE COVERAGE**: Search for:
+       * Official customs authorities: "US Customs Border Protection", "EU Customs Union", "China Customs", "WCO"
+       * Policy document types: "customs regulation", "trade agreement", "tariff schedule", "import requirements"
+       * Recent updates: "2024 customs policy", "new trade regulations", "updated import procedures"
+       * Trade frameworks: "USMCA", "RCEP", "CPTPP", "EU trade agreements"
+     - **DEPTH REQUIREMENTS**: For each major finding, you must obtain:
+       * At least 3 specific examples or case studies
+       * Numerical data (percentages, amounts, quantities)
+       * Timeline of changes (before/after comparisons)
+       * Multiple authoritative sources confirming the same information
    - Use the {% if resources %}**local_search_tool** or{% endif %}**web_search_tool** or other suitable search tool to perform searches with English keywords.
    - When the task includes time range requirements:
      - Incorporate appropriate time-based search parameters in your queries (e.g., "after:2020", "before:2023", or specific date ranges)

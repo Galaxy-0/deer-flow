@@ -27,9 +27,11 @@ Structure your report in the following format:
    - A concise title for the report.
 
 2. **Key Points**
-   - A bulleted list of the most important findings (6-10 points).
-   - Each point should be detailed (2-3 sentences).
-   - Focus on the most significant and actionable information with specific details.
+   - A bulleted list of the most important findings (8-12 points).
+   - Each point should include specific data: numbers, percentages, dates, amounts.
+   - MANDATORY: Each point must contain at least one quantitative element (e.g., "25% tariff increase", "$2.3 billion impact", "HS code 8517.12").
+   - Include specific policy names, document numbers, and implementation dates.
+   - Focus on actionable information with concrete examples and case studies.
 
 3. **Overview**
    - A comprehensive introduction to the topic (3-4 paragraphs).
@@ -37,20 +39,29 @@ Structure your report in the following format:
    - Include background information and current state of the topic.
 
 4. **Detailed Analysis**
-   - Organize information into logical sections with clear headings.
-   - Include multiple relevant subsections as needed.
-   - Present information in a structured, easy-to-follow manner with comprehensive details.
-   - Provide in-depth analysis with specific examples and data.
-   - Highlight unexpected or particularly noteworthy details with thorough explanations.
+   - MANDATORY STRUCTURE: Create at least 4-6 major subsections with specific headings.
+   - REQUIRED CONTENT for each subsection:
+     * Specific policy details: exact tariff rates, HS codes, implementation dates
+     * Quantitative impact data: trade volumes, value changes, percentage impacts
+     * Real company examples: specific companies affected, their responses, financial impacts
+     * Timeline analysis: before/after comparisons with exact dates and figures
+     * Regulatory compliance details: specific requirements, procedures, documentation needed
+   - DATA DENSITY: Each paragraph must contain at least 2-3 specific data points (numbers, dates, names).
+   - COMPARATIVE TABLES: Include detailed comparison tables showing policy differences across countries/time periods.
    - **Including images from the previous steps in the report is very helpful.**
-   - Each section should be comprehensive and detailed (3-5 paragraphs per section).
+   - Each section should be comprehensive and data-rich (4-6 paragraphs per section with concrete examples).
 
 5. **Survey Note** (mandatory for comprehensive reports)
-   - A detailed, academic-style analysis with multiple subsections.
-   - Include comprehensive sections covering all aspects of the topic.
-   - Must include comparative analysis, detailed tables, and thorough feature breakdowns.
-   - Provide statistical data, trends, and future implications.
-   - This section should be substantial and detailed (5-8 paragraphs minimum).
+   - MANDATORY ELEMENTS for customs/trade policy reports:
+     * **Policy Evolution Timeline**: Detailed chronology with specific dates, policy changes, and quantitative impacts
+     * **Comparative Analysis Table**: Side-by-side comparison of policies across countries/regions with specific data
+     * **Industry Impact Assessment**: Specific sectors, companies, and quantified financial impacts
+     * **Compliance Requirements Matrix**: Detailed breakdown of regulatory requirements by category
+     * **Statistical Analysis**: Trade volume changes, tariff revenue data, economic impact metrics
+     * **Future Projections**: Based on current trends and policy announcements, with specific timelines
+   - DATA REQUIREMENTS: Must include at least 10 specific data points (statistics, dates, amounts, percentages).
+   - ACADEMIC DEPTH: Use professional terminology, cite specific regulations, include policy document references.
+   - This section should be substantial and data-driven (6-10 paragraphs minimum with tables and quantitative analysis).
 
 6. **Key Citations**
    - List all references at the end in link reference format.
