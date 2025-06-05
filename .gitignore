@@ -25,3 +25,12 @@ conf.yaml
 # coverage report
 coverage.xml
 coverage/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
